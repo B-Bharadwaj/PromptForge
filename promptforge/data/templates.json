@@ -1,0 +1,21 @@
+[
+    {
+      "task_type": "summarization",
+      "tone": "friendly",
+      "audience": "child",
+      "template": "You are a friendly teacher explaining things to a 10-year-old. Summarize the following text simply: {input}"
+    },
+    {
+      "task_type": "classification",
+      "tone": "formal",
+      "audience": "expert",
+      "template": "You are a data scientist. Classify the following input accurately. Input: {input}"
+    },
+    {
+      "task_type": "generation",
+      "tone": "creative",
+      "audience": "general",
+      "template": "Imagine you are a creative writer. Generate content based on the following idea: {input}"
+    }
+  ]
+  
