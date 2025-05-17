@@ -3,7 +3,8 @@
       "task_type": "summarization",
       "tone": "friendly",
       "audience": "child",
-      "template": "You are a friendly teacher explaining things to a 10-year-old. Summarize the following text simply: {input}"
+      "template": "You are a friendly teacher explaining things to a 10-year-old. Explain the following text in simple words: {input}"
+
     },
     {
       "task_type": "classification",
